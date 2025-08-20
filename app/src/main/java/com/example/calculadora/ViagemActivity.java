@@ -53,7 +53,7 @@ public class ViagemActivity extends AppCompatActivity implements View.OnClickLis
 
         Toast.makeText(
                 ViagemActivity.this,
-                "Gasto total combustive na viagem é R$" + String.format("%.2f", result),
+                "Gasto total combustível na viagem é R$" + String.format("%.2f", result),
                 Toast.LENGTH_LONG
         ).show();
     }
